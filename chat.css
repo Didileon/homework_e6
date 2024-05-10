@@ -1,0 +1,98 @@
+
+body{
+
+  background: #ddd;
+  
+  }
+  
+   
+.text {
+    background: #eff1f4;
+    color: #0f0e0e;
+  }
+  
+  .text:hover {
+    background: #2c3e50;
+  }
+  
+  .text:active {
+    background: #2c3e50;
+    top: 2px;
+  }
+  
+  .text:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+  }
+
+  #start {
+    width: 83px;
+    left: 45px;
+    border: 3px solid #2c3e50;
+    background-color: #fff;
+    
+  }
+
+  #exit {
+    width: 83px;
+    left: 45px;
+    border: 3px solid #2c3e50;
+    background-color: #fff;
+    
+  }
+
+  #refresh {
+    width: 300px;
+    left: 45px;
+    top: 84px;
+  }
+  
+  /*divs*/
+  .chat {
+    line-height: 42px;
+    border: 3px solid #2c3e50;
+    background-color: #34495e;
+    position: absolute;
+    color: #FFF;
+    height: 45px;
+    width: 170px;
+  }
+
+  .nick {
+    border: 3px solid #2c3e50;
+    background-color: #fff;
+    position: absolute;
+    color: #000;
+    
+  }
+
+  .users {
+    color: #000;
+    background-color: #fff;
+  }
+  /*полоса прокрутки */
+  *::-webkit-scrollbar {
+    background-color: #0d1220;
+    width: 6px;
+  }
+
+  input {
+    font-family: "Lato";
+  }
+  
+  .chat hidden {
+    width: 600px;
+    border-right: 1px solid grey;
+    display: flex;
+    position: absolute;
+    color: #FFF;
+
+    background: #f3f3f3;
+    
+  }
+  
